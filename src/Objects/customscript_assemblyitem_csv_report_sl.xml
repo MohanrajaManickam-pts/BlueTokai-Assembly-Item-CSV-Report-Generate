@@ -1,0 +1,31 @@
+<suitelet scriptid="customscript_assemblyitem_csv_report_sl">
+  <description>AssemblyItem CSV Report Generate</description>
+  <isinactive>F</isinactive>
+  <name>[SL]-AssemblyItem CSV Report Generate</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Assembly Item CSV Generator/[SL]-AssemblyItem-CSV-Report.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_assemblyitem_csv_report_sl">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>TESTING</status>
+      <title>[SL]-AssemblyItem CSV Report Generate</title>
+      <links>
+        <link>
+          <linkcategory>BASICLISTSCUSTOM</linkcategory>
+          <linklabel>Assembly Item CSV Report</linklabel>
+        </link>
+      </links>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
